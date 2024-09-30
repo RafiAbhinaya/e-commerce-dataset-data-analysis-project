@@ -87,7 +87,7 @@ order_reviews_df = create_order_reviews_df(main_df)
 rfm_df = create_rfm_df(main_df)
 
 # create header
-st.header('E-Commerce Insights :shopping_bags:')
+st.header('E-Commerce Insights Dashboard :shopping_bags:')
 
 # create subheader
 st.subheader('Revenue Demographics')
