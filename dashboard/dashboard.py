@@ -51,7 +51,7 @@ def create_rfm_df(df):
     return rfm_df
 
 # read csv
-all_df = pd.read_csv('all_df.csv')
+all_df = pd.read_csv('/dashboard/all_df.csv')
 
 # sort by order date
 all_df.sort_values(by="order_purchase_timestamp", inplace=True)
